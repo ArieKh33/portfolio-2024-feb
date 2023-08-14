@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Condensed:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 15% 0.25rem;
+    box-shadow: #e8f3f6 1px 2px;
+}
+
+.logo {
+    display: flex;
+    align-items:center;
+}
+
+.logofoto {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.logotext {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+li, a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #258ca6;
+    text-decoration: none;
+}
+
+
+
+button {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #d5dadb;
+    text-decoration: none;
+    background-color: rgb(3, 69, 150);
+    padding: 10px 10px;
+    border-style: none;
+    border-radius: 1rem;
+    margin-left: 0.6rem;
+}
+
