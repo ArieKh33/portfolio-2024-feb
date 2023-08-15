@@ -1,14 +1,13 @@
 .flex {
     display: flex;
 }
-
 .align-center {
     align-items: center;
 }
-
 .side-padding {
     padding: 0 10% 0;
 }
+
 
 header {
     justify-content: space-around;
@@ -23,7 +22,6 @@ header {
     margin-right: 0.5rem;
     width: 15%;
     height: 15%;
-    
 }
 
 .headerbutton {
@@ -35,12 +33,49 @@ header {
     margin-right: 0.5rem;
 }
 
-.foto img {
+.picture img {
     width: 100%;
     height: 100%;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .introduction-text div:first-child {
     padding-bottom: 4%;
 }
+
+.language-choice {
+    justify-content: space-between;
+}
+
+.language-choice button {
+    padding: 1% 0% 1%;
+    width: 140%;
+}
+
+ .language_explained {
+    justify-content: space-between;
+}
+.language_explained_text h3 {
+    padding: 1% 4.5% 1% ;
+    /* width: 0%; */
+}
+
+.language_explained_text p {
+    padding: 1% 4.5% 1% ;
+    /* width: 80%; */
+}
+
+
+
+.language_explained img {
+    width: 100%;
+    padding: 2% 2% 2%;
+    /* background-color: orangered; */
+}
+
+/* .language_explained img {
+    justify-content: flex-start;
+    width: 50%;
+    padding-top: 2%;
+    background-color: orangered;
+}  */

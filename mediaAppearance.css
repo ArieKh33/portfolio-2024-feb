@@ -1,12 +1,7 @@
 @media screen and (max-width: 28rem) {
 
-    #logotext {
-        font-size: 1.2rem;
-    }
-    
     .headerbutton {
         font-weight: 600;
-        font-size: 0.75rem;
     }
 
     .introduction-text h3 {
@@ -14,11 +9,35 @@
     }
     
     .introduction-text p {
-        font-size: 0.75rem;
+        font-size: 0.75735rem;
     }
     
+    .language_explained_text h3 {
+        font-size: 1.122rem;
+        text-align: center;
+    }
+    
+    .language_explained_text p {
+        font-size: 0.75735rem;
+    }
+
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (min-width: 50rem) {
 
+    #logotext {
+        font-size: 2rem;
+    }
+
+    .headerbutton {
+        font-size: 1.5rem;
+    }
+
+    /* .introduction-text h3 {
+        font-size: 1.75rem;
+    }
+    
+    .introduction-text p {
+        font-size: 1rem;
+    } */
 }
