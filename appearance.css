@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+
+body, html {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    box-shadow: 1px 1px gainsboro;
+}
+
+#logotext {
+    font-size: 4vw;
+}
+
+.logo img {
+    border-radius: 50%;    
+}
+
+.headerbutton {
+    font-weight: 600;
+    font-size: 3vw;
+    border-radius: 0.5rem;
+    color: #d5dadb;
+    text-decoration: none;
+    background-color: rgb(126, 6, 6);
+    border-style: none;
+    cursor: pointer;
+}
+
+.headerbutton:hover {
+    background: linear-gradient(to left, rgb(176, 165, 12) 34%, rgb(126, 6, 6) 65%) right;
+    color: rgb(213, 227, 214);
+    background-size: 300% 100%;
+    transition: 1s;
+}
+
+.projectbutton {
+    background-color: rgb(3, 69, 150);
+}
+
+.projectbutton:hover {
+    background: linear-gradient(to left, rgb(41, 208, 55) 34%, rgb(3, 69, 150) 65%) right;
+    background-size: 300% 100%;
+}
+
+.introduction-text h3 {
+    font-size: 3.5vw;
+}
+
+.introduction-text p {
+    font-size: 2vw;
+}

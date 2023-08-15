@@ -1,0 +1,21 @@
+@media screen and (max-width: 28rem) {
+    .side-padding {
+        padding: 0 3vw 0;
+    }
+
+    
+
+    .projectbutton {
+        margin-left: 0;
+    }
+
+    .foto img {
+        width: 110%;
+        height: 100%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+
+}

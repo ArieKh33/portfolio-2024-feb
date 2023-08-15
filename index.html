@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="http://baton.rocks/BATON.reset.css"> -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="appearance.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="specific.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="mediaAppearance.css">
+    <link rel="stylesheet" href="mediaLayout.css">
     <script src="script.js"></script>
     <title>Arie Kharamany</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
+    <header class="flex align-center side-padding">
+        <div class="logo flex align-center">
             <img class="logofoto" src="profile.png" alt="">
-            <h5 class="logotext">A.Kharamany</h5>
+            <h5 id="logotext">A.Kharamany</h5>
         </div>
-            <div class="buttons">
-                <a href="projects.html"></a>
-                <a href="contact.html"><button class="projectbutton">Projects</button></a>
-                <a href="contact.html"><button class="contactbutton">Contact</button></a>
+            <div class="headerbuttons flex align-center">
+                <a href="projects.html"><button class="headerbutton projectbutton">Projects</button></a>
+                <a href="#"><button class="headerbutton">Contact</button></a>
             </div>
     </header>
-
-    <article class="introduction">
+ 
+    <article class="flex side-padding">
         <section class="introduction-text">
             <div>
                 <h3>Title Title Title</h3>
@@ -36,8 +39,7 @@
             <img class="ownpicture" src="test_ownpic_jpg.jpg" alt="">
         </section>
     </article>
-
-    <article class="languege-knowledge">
+    <!-- <article class="languege-knowledge">
         <section class="language-choice">
             <form class="languageform" action="index.html">
                 <button class="language_button_HTML5">HTML5</button>
@@ -58,6 +60,6 @@
         <section class="language_explained_img">
             <img src="html5picture.png" alt="">
         </section>
-    </article>
+    </article> -->
 </body>
 </html>

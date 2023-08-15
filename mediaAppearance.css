@@ -1,0 +1,24 @@
+@media screen and (max-width: 28rem) {
+
+    #logotext {
+        font-size: 1.2rem;
+    }
+    
+    .headerbutton {
+        font-weight: 600;
+        font-size: 0.75rem;
+    }
+
+    .introduction-text h3 {
+        font-size: 1rem;
+    }
+    
+    .introduction-text p {
+        font-size: 0.75rem;
+    }
+    
+}
+
+@media screen and (max-width: 48rem) {
+
+}
