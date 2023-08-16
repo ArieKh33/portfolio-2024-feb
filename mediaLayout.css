@@ -1,7 +1,7 @@
 @media screen and (max-width: 28rem) {
 
     .logo img {
-        margin-right: 0.4rem;
+        margin-right: 0.5rem;
     }
 
     .picture img {
@@ -33,7 +33,6 @@
     }
 
     .headerbutton {
-        font-size: 1.5rem;
         padding: 0.475rem 0.875rem;
         margin-left: 0.5rem;
     }

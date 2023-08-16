@@ -67,11 +67,11 @@ cursor: pointer;
 }
 
 .language_button_HTML5 {
-    background-color: orangered;
+    background-color: rgb(157,8,8);
     color: azure;
 }
 .language_button_CSS3 {
-    background-color: rgb(33, 158, 235);
+    background-color: rgba(0,157,139,1);
     color: azure;
 
 }
@@ -92,7 +92,12 @@ cursor: pointer;
 }
 
 .language_explained_text h3 {
-    background-color: orangered;
+    background: rgb(157,8,8);
+    background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%);
+    background: rgb(3,219,206);
+    background: linear-gradient(90deg, rgba(3,219,206,1) 13%, rgba(0,153,135,1) 21%, rgba(0,152,127,1) 39%, rgba(0,246,235,1) 58%);
+    
+    
     color: azure;
     font-size: 3vw;
 }
