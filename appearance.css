@@ -76,17 +76,17 @@ cursor: pointer;
 
 }
 .language_button_PHP {
-    background-color: rgb(181, 35, 181);
+    background-color: rgb(192, 0, 198);
     color: azure;
 
 }
 .language_button_JavaScript {
-    background-color: yellow;
+    background: rgb(230, 222, 0);
     color: black;
 
 }
 .language_button_Bootstrap {
-    background-color: rgb(90, 0, 128);
+    background-color: #5a0080;
     color: azure;
 
 }
@@ -94,12 +94,25 @@ cursor: pointer;
 .language_explained_text h3 {
     background: rgb(157,8,8);
     background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%);
-    background: rgb(3,219,206);
-    background: linear-gradient(90deg, rgba(3,219,206,1) 13%, rgba(0,153,135,1) 21%, rgba(0,152,127,1) 39%, rgba(0,246,235,1) 58%);
-    
-    
     color: azure;
     font-size: 3vw;
+}
+
+#titleLanguage.htmlActive {
+    background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%);
+}
+#titleLanguage.css3Active {
+    background: linear-gradient(90deg, rgba(3,219,206,1) 13%, rgba(0,153,135,1) 21%, rgba(0,152,127,1) 39%, rgba(0,246,235,1) 58%);
+}
+#titleLanguage.phpActive {
+    background: linear-gradient(90deg, rgba(165,0,246,1) 30%, rgba(192,0,198,1) 45%, rgba(192,0,198,1) 55%, rgba(165,0,246,1) 70%);
+}
+#titleLanguage.javascriptActive {
+    background: linear-gradient(90deg, rgba(251,252,1,1) 30%, rgba(230,222,0,1) 70%, rgba(230,222,0,1) 81%, rgba(251,252,1,1) 92%);
+    color: black;
+}
+#titleLanguage.bootstrapActive {
+    background: linear-gradient(90deg, rgba(28,0,128,1) 30%, rgba(73,0,128,1) 48%, rgba(79,0,128,1) 63%, rgba(90,0,128,1) 80%, rgba(90,0,128,1) 100%);
 }
 
 .language_explained_text h3 {
