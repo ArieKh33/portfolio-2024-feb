@@ -1,31 +1,38 @@
 
 const htmlButton = () => {
     const button = document.getElementById("titleLanguage");
+    
     if(!button) { return false; }
+    button.innerHTML = "My experiences with: HTML5";
     button.className = "htmlActive";
 };
+
 
 const cssButton = () => {
     const button = document.getElementById("titleLanguage");
     if(!button) { return false; }
+    button.innerHTML = "My experiences with: CSS3";
     button.className = "css3Active";
 };
 
 const phpButton = () => {
     const button = document.getElementById("titleLanguage");
     if(!button) { return false; }
+    button.innerHTML = "My experiences with: PHP";
     button.className = "phpActive";
 };
 
 const javascriptButton = () => {
     const button = document.getElementById("titleLanguage");
     if(!button) { return false; }
+    button.innerHTML = "My experiences with: JavaScript";
     button.className = "javascriptActive";
 };
 
 const bootstrapButton = () => {
     const button = document.getElementById("titleLanguage");
     if(!button) { return false; }
+    button.innerHTML = "My experiences with: Bootstrap";
     button.className = "bootstrapActive";
 };
 
