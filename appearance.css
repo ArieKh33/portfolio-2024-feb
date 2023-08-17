@@ -98,8 +98,16 @@ cursor: pointer;
     font-size: 3vw;
 }
 
+#test {
+display:none;
+}
+
 #titleLanguage.htmlActive {
     background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%);
+}
+
+#test.htmlActive {
+    display: contents;
 }
 #titleLanguage.css3Active {
     background: linear-gradient(90deg, rgba(3,219,206,1) 13%, rgba(0,153,135,1) 21%, rgba(0,152,127,1) 39%, rgba(0,246,235,1) 58%);
@@ -120,5 +128,8 @@ cursor: pointer;
 }
 
 .language_explained_text p {
+    background: rgb(17, 16, 16);
+    /* background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%); */
+    color: azure;
     font-size: 2.7vw;
 }
