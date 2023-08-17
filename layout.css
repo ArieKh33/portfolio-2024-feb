@@ -65,30 +65,22 @@ header {
     width: 140%;
 }
 
- .language_explained {
+ .language_explained_text {
     justify-content: space-between;
+
 }
+
 .language_explained_text h3 {
     padding: 1% 4.5% 1% ;
-    /* width: 0%; */
+    width: 70%;
 }
 
 .language_explained_text p {
     padding: 1% 4.5% 1% ;
-    /* width: 80%; */
+    width: 60%;
 }
 
-
-
-.language_explained img {
-    width: 100%;
-    padding: 2% 2% 2%;
-    /* background-color: orangered; */
-}
-
-/* .language_explained img {
-    justify-content: flex-start;
-    width: 50%;
+.html5logo{
+    width: 200%;
     padding-top: 2%;
-    background-color: orangered;
-}  */
+} 

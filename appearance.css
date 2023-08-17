@@ -5,6 +5,24 @@ body, html {
     background-color: rgb(255, 255, 255);
 }
 
+.balk_links {
+
+    width: 10%;
+    height: 100%;
+background: rgb(255,255,255);
+background: linear-gradient(270deg, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 34%, rgba(107,107,107,1) 62%, rgba(54,54,54,1) 80%, rgba(0,0,0,1) 100%);    position: fixed;
+}
+
+.balk_rechts {
+
+    width: 10%;
+    height: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 15%, rgba(255,255,255,1) 34%, rgba(107,107,107,1) 62%, rgba(54,54,54,1) 80%, rgba(0,0,0,1) 100%);
+    position: fixed;
+    right: 0;
+}
+
 button {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -64,6 +82,7 @@ header {
 
 .language-choice button:hover{
 cursor: pointer;
+
 }
 
 .language_button_HTML5 {
@@ -104,13 +123,11 @@ display:none;
 
 #titleLanguage.htmlActive {
     background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%);
-}
 
-#test.htmlActive {
-    display: contents;
 }
 #titleLanguage.css3Active {
     background: linear-gradient(90deg, rgba(3,219,206,1) 13%, rgba(0,153,135,1) 21%, rgba(0,152,127,1) 39%, rgba(0,246,235,1) 58%);
+
 }
 #titleLanguage.phpActive {
     background: linear-gradient(90deg, rgba(165,0,246,1) 30%, rgba(192,0,198,1) 45%, rgba(192,0,198,1) 55%, rgba(165,0,246,1) 70%);
@@ -128,7 +145,8 @@ display:none;
 }
 
 .language_explained_text p {
-    background: rgb(17, 16, 16);
+    background: rgb(22, 18, 18);
+
     /* background: linear-gradient(90deg, rgba(157,8,8,1) 16%, rgba(215,4,4,1) 38%, rgba(246,33,0,1) 82%); */
     color: azure;
     font-size: 2.7vw;
