@@ -14,20 +14,15 @@
         flex-wrap: wrap;
     }
     
-    .language_explained img {
-        width: 28vw;
-    }
 }
 
 @media screen and (min-width: 50rem) {
 
     header {
         justify-content: space-between;
-        margin-bottom: 2%;
     }
 
     .logo img {
-        margin-right: 0.4rem;
         width: 5.3025rem;
         height: 5.3025rem;
     }
@@ -35,6 +30,12 @@
     .headerbutton {
         padding: 0.475rem 0.875rem;
         margin-left: 0.5rem;
+    }
+
+        .language-logo img {
+        width: 7.4925rem;
+        height: 7.4925rem;
+        margin-top: 2.31953125rem;
     }
 
 }

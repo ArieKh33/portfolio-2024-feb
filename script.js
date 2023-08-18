@@ -1,38 +1,67 @@
 
 const htmlButton = () => {
     const button = document.getElementById("titleLanguage");
-    
+    const text = document.getElementById("languageExplain");
+    const logo = document.getElementById("language_logo");
     if(!button) { return false; }
+    if(!text) {return false; }
+    if(!logo) {return false;}
     button.innerHTML = "My experiences with: HTML5";
+    text.innerHTML = "test html5";
+    logo.src = "html-logo.svg";
     button.className = "htmlActive";
 };
 
 
 const cssButton = () => {
     const button = document.getElementById("titleLanguage");
+    const text = document.getElementById("languageExplain");
+    const logo = document.getElementById("language_logo");
     if(!button) { return false; }
+    if(!text) {return false; }
+    if(!logo) {return false;}
     button.innerHTML = "My experiences with: CSS3";
+    text.innerHTML = "test CCS3";
+    logo.src = "css3-logo.svg";
     button.className = "css3Active";
 };
 
 const phpButton = () => {
     const button = document.getElementById("titleLanguage");
+    const text = document.getElementById("languageExplain");
+    const logo = document.getElementById("language_logo");
     if(!button) { return false; }
+    if(!text) {return false; }
+    if(!logo) {return false;}
     button.innerHTML = "My experiences with: PHP";
+    text.innerHTML = "test PHP";
+    logo.src = "php-logo.svg";
     button.className = "phpActive";
 };
 
 const javascriptButton = () => {
     const button = document.getElementById("titleLanguage");
+    const text = document.getElementById("languageExplain");
+    const logo = document.getElementById("language_logo");
     if(!button) { return false; }
+    if(!text) {return false; }
+    if(!logo) {return false;}
     button.innerHTML = "My experiences with: JavaScript";
+    text.innerHTML = "test JavaScript";
+    logo.src = "javascript-logo.svg";
     button.className = "javascriptActive";
 };
 
 const bootstrapButton = () => {
     const button = document.getElementById("titleLanguage");
+    const text = document.getElementById("languageExplain");
+    const logo = document.getElementById("language_logo");
     if(!button) { return false; }
+    if(!text) {return false; }
+    if(!logo) {return false;}
     button.innerHTML = "My experiences with: Bootstrap";
+    text.innerHTML = "test Bootstrap";
+    logo.src = "bootstrap-logo.svg";
     button.className = "bootstrapActive";
 };
 

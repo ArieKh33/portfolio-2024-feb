@@ -8,13 +8,17 @@
     padding: 0 10% 0;
 }
 .text-padding {
-    padding: 1% 4% 1%;
+    padding: 1% 0% 1%;
 }
+.title-padding {
+    padding: 4% 0% 4%;
+}
+
+
 
 
 header {
     justify-content: space-around;
-    margin-bottom: 2%;
 }
 
 .logo {
@@ -22,7 +26,8 @@ header {
 }
 
 .logo img {
-    margin-right: 0.5rem;
+    margin: 2% -2% 2%;
+    margin-right: 0.05rem;
     width: 22%;
     height: 22%;
 }
@@ -36,16 +41,13 @@ header {
     margin-right: 0.5rem;
 }
 
-.introduction-text h3 {
-    padding: 1% 1% 1%;
+.introduction-text {
+    padding: 1% 0% 1%;
 }
 
-.introduction-text p {
-    padding: 1% 1% 1%;
-}
 
 .introduction-text div:first-child {
-    padding-bottom: 1%;
+    padding-top: 2%;
 }
 
 .picture img {
@@ -62,7 +64,7 @@ header {
 
 .language-choice button {
     padding: 1% 0% 1%;
-    width: 140%;
+    width: 100%;
 }
 
  .language_explained_text {
@@ -70,17 +72,42 @@ header {
 
 }
 
+.language_explained_text {
+    width: 90%;
+}
+
 .language_explained_text h3 {
-    padding: 1% 4.5% 1% ;
-    width: 70%;
+    padding: 1% 1% 1% ;
 }
 
 .language_explained_text p {
-    padding: 1% 4.5% 1% ;
-    width: 60%;
+    padding: 1% 1% 1% ;
 }
 
-.html5logo{
-    width: 200%;
-    padding-top: 2%;
-} 
+.language_explained_text {
+    width: 100%;
+}
+
+.language-logo {
+    width: 30%;
+}
+
+.language_explained_text img {
+    width: 15vw;
+    margin-top: 31%;
+}
+
+.language_bar_box h4 {
+    margin-top: 2%;
+}
+
+.language_bar {
+    width: 90%;
+    margin: 1% 2% 2%;
+}
+
+.background_language_text {
+    width: 100%;
+}
+
+
