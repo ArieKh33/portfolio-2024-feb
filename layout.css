@@ -14,9 +14,6 @@
     padding: 4% 0% 4%;
 }
 
-
-
-
 header {
     justify-content: space-around;
 }
@@ -50,8 +47,11 @@ header {
     padding-top: 2%;
 }
 
-.picture img {
-    width: 100%;
+.middle-bar {
+    width: 10vw;
+}
+
+.picture div {
     height: 100%;
     padding-left: 10%;
 }
@@ -63,7 +63,7 @@ header {
 }
 
 .language-choice button {
-    padding: 1% 0% 1%;
+    padding: 1% 1% 1%;
     width: 100%;
 }
 
@@ -86,10 +86,6 @@ header {
 
 .language_explained_text {
     width: 100%;
-}
-
-.language-logo {
-    width: 30%;
 }
 
 .language_explained_text img {

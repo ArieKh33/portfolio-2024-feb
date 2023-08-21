@@ -1,33 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Roboto+Mono:wght@200&family=Share+Tech+Mono&display=swap');
 body, html {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #20002e;
     color: aliceblue;
 }
+button, a, h3 {
+    font-family: 'share tech mono', sans-serif;
+}
+p {
+    font-family: "roboto mono";
+}
 
-.balk_links {
-
+.side-bars {
     width: 10%;
     height: 100%;
+}
+
+.balk_links {
     background: rgb(32,0,46);
     background: linear-gradient(270deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);
     position: fixed;
 }
 
 .balk_rechts {
-
-    width: 10%;
-    height: 100%;
     background: rgb(32,0,46);
     background: linear-gradient(90deg, rgba(32,0,46,1) 5%, rgba(25,0,36,1) 34%, rgba(20,0,31,1) 48%, rgba(17,0,31,1) 65%, rgba(13,0,28,1) 100%);    
     position: fixed;
     right: 0;
 }
 
-button {
-    font-family: 'Josefin Sans', sans-serif;
+.middle-bar {
+    width: 25rem;
+    height: 50rem;
+    background-color: #6534db;
 }
+
+
 
 header {
     box-shadow: 1px 1px gainsboro;
@@ -35,6 +43,7 @@ header {
 }
 
 #logotext {
+    font-family: 'share tech mono', sans-serif;
     font-size: 4vw;
     color: #d5dadb;
     text-decoration: none;
@@ -78,14 +87,20 @@ header {
     background: rgb(173,41,234);
     background: linear-gradient(0deg, #ad29ea 0%, #6534db 100%);
     border-style: solid;
-    border-top: none;
     border-width: 1px;
     border-color: #6534db;
 }
 
 .language-choice button:hover{
-cursor: pointer;
+    cursor: pointer;
+    border-style: solid;
+    border-color: azure;
+    transition: 2s;
+}
 
+.language-choice button:focus{
+    border-style: solid;
+    border-color: azure;
 }
 
 .language_explained_text h3 {
@@ -100,7 +115,6 @@ cursor: pointer;
     border-color: #6534db;
 }
 
-
 .language_explained_text h3 {
     font-size: 3.4vw;
     }
@@ -113,7 +127,6 @@ cursor: pointer;
 background: rgb(173,41,234);
 background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
-
 
 .language-logo {
 background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
