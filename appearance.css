@@ -30,15 +30,13 @@ p {
 }
 
 .middle-bar {
-    width: 25rem;
-    height: 50rem;
     background-color: #6534db;
 }
 
 
 
 header {
-    box-shadow: 1px 1px gainsboro;
+    box-shadow: 1px 1px #6534db;
     text-decoration: none;
 }
 
