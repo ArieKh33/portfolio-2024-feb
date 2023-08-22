@@ -25,7 +25,7 @@
 @media screen and (min-width: 50rem) {
 
     #logotext {
-        font-size: 2rem;
+        font-size: 1.998rem;
     }
 
     .headerbutton {
@@ -45,11 +45,11 @@
     }
 
     .language_explained_text h3 {
-        font-size: 1.6983rem;
+        font-size: 1.4985rem;
     }
 
         .language_explained_text p {
-        font-size: 1.2987rem;
+        font-size: 1.1976rem;
     }
 
 }

@@ -33,8 +33,6 @@ p {
     background-color: #6534db;
 }
 
-
-
 header {
     box-shadow: 1px 1px #6534db;
     text-decoration: none;
@@ -70,7 +68,7 @@ header {
 }
 
 .introduction-text h3 {
-    font-size: 3vw;
+    font-size: 3.09vw;
 }
 
 .introduction-text p {
@@ -114,11 +112,11 @@ header {
 }
 
 .language_explained_text h3 {
-    font-size: 3.4vw;
+    font-size: 3vw;
     }
 
 .language_explained_text p {
-    font-size: 2.6vw;
+    font-size: 2.4vw;
 }
 
 .background_language_text {
@@ -130,4 +128,20 @@ background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49
 background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
 
+footer {
+    background: rgb(173,41,234);
+    background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%, #6534db 100%);
+}
+
+.title-contact {
+    font-size: 5vw;
+}
+
+.contact-info p {
+    font-size: 2vw;
+}
+
+.contact-info h3 {
+    font-size: 3vw;
+}
 
