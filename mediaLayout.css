@@ -9,6 +9,12 @@
     .language_explained {
         flex-wrap: wrap;
     }
+
+    .title-contact img {
+        width: 2.644375rem;
+        height: 2.644375rem;
+        margin-right: 0.278125rem;
+}
     
 }
 
@@ -28,9 +34,16 @@
         margin-left: 0.5rem;
     }
 
-        .language-logo img {
+    .language-logo img {
         width: 7.4925rem;
         margin-top: 2.31953125rem;
     }
+
+    .title-contact img {
+        width: 4.435rem;
+        height: 4.435rem;
+        margin-right: 0.46640625rem;
+}
+
 
 }

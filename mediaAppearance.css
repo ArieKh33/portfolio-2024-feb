@@ -5,20 +5,33 @@
     }
 
     .introduction-text h3 {
-        font-size: 1rem;
+        font-size: 0.86674375rem;
     }
     
     .introduction-text p {
-        font-size: 0.75735rem;
+        font-size: 0.6486rem;
     }
     
     .language_explained_text h3 {
-        font-size: 1.122rem;
+        font-size: 0.8415rem;
     }
     
     .language_explained_text p {
-        font-size: 0.75735rem;
+        font-size: 0.6732rem;
     }
+
+    .title-contact h3 {
+        font-size: 1.54275rem;
+    }
+
+    .contact-info h3 {
+        font-size: 0.8415rem;
+    } 
+
+    .contact-info p {
+        font-size: 0.561rem;
+    }
+
 
 }
 
@@ -48,8 +61,21 @@
         font-size: 1.4985rem;
     }
 
-        .language_explained_text p {
+    .language_explained_text p {
         font-size: 1.1976rem;
     }
+
+    .title-contact h3 {
+        font-size: 2.74725rem;
+    }
+
+    .contact-info h3 {
+        font-size: 1.497rem;
+    } 
+
+    .contact-info p {
+        font-size: 0.998rem;
+    }
+
 
 }
