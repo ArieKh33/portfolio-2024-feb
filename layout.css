@@ -69,7 +69,6 @@ header {
 
  .language_explained_text {
     justify-content: space-between;
-
 }
 
 .language_explained_text {
@@ -105,6 +104,44 @@ header {
 .background_language_text {
     width: 100%;
 }
+
+#projects-explained {
+    margin-top: 10%;
+}
+
+#project-boxes {
+    margin-top: 5%;
+    justify-content: space-between;
+}
+
+.project-box {
+    width: 33%;
+}
+
+.project-box:nth-child(2) {
+    margin: 0% 10% 0%;
+}
+
+.box-template {
+    width: 20vw;
+    height: 14vw;
+}
+
+.picture-side {
+    width: 10%;
+}
+
+.box-text h5 {
+    padding: 1% 1% 1%;
+}
+
+.box-text h5:nth-child(1) {
+    padding: 3% 1% 1%;
+}
+
+
+
+
 
 footer {
     padding: 1% 10% 1%;

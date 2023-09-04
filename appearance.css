@@ -119,6 +119,11 @@ header {
     font-size: 2.4vw;
 }
 
+#language_explained {
+    box-shadow: 1px 1px #6534db;
+    }
+
+
 .background_language_text {
 background: rgb(173,41,234);
 background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
@@ -127,6 +132,20 @@ background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49
 .language-logo {
 background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
+
+
+.picture-side, .box-text {
+    background-color:#6534db;
+}
+
+.box-template {
+    background-color: white;
+}
+
+.project-box h5 {
+    font-size: 1.2vw;
+}
+
 
 footer {
     background: rgb(173,41,234);
