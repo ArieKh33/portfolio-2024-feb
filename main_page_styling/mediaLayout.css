@@ -6,23 +6,19 @@
         padding-left: 10%;
     }
 
-    .language_explained {
-        flex-wrap: wrap;
-    }
+    .language_explained { flex-wrap: wrap; }
+
+    .arrangement.in-threes > ul > li { width: 100%; }
 
     .title-contact img {
         width: 2.644375rem;
         height: 2.644375rem;
         margin-right: 0.278125rem;
-}
-    
-}
+}}
 
 @media screen and (min-width: 50rem) {
 
-    header {
-        justify-content: space-between;
-    }
+    header { justify-content: space-between; }
 
     .logo img {
         width: 4.876875rem;
@@ -38,12 +34,13 @@
         width: 7.4925rem;
         margin-top: 2.31953125rem;
     }
+        
+    .picture-side:nth-child(2) { width: 2vw; }
+
+    .arrangement.in-fours > ul > li { width: 20%; }
 
     .title-contact img {
         width: 4.435rem;
         height: 4.435rem;
         margin-right: 0.46640625rem;
-}
-
-
-}
+}}

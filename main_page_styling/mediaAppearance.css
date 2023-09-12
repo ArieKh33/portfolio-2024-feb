@@ -1,81 +1,42 @@
 @media screen and (max-width: 28rem) {
 
-    .headerbutton {
-        font-weight: 600;
-    }
+    .headerbutton { font-weight: 600; }
 
-    .introduction-text h3 {
-        font-size: 0.86674375rem;
-    }
+    .introduction-text h3 { font-size: 0.86674375rem; }
     
-    .introduction-text p {
-        font-size: 0.6486rem;
-    }
+    .introduction-text p { font-size: 0.6486rem; }
     
-    .language_explained_text h3 {
-        font-size: 0.8415rem;
-    }
+    .language_explained_text h3 { font-size: 0.8415rem; }
     
-    .language_explained_text p {
-        font-size: 0.6732rem;
-    }
+    .language_explained_text p { font-size: 0.6732rem; }
 
-    .title-contact h3 {
-        font-size: 1.54275rem;
-    }
+    .title-contact h3 { font-size: 1.54275rem; }
 
-    .contact-info h3 {
-        font-size: 0.8415rem;
-    } 
+    .contact-info h3 { font-size: 0.8415rem; } 
 
-    .contact-info p {
-        font-size: 0.561rem;
-    }
-
-
+    .contact-info p { font-size: 0.561rem; }
 }
 
 @media screen and (min-width: 50rem) {
 
-    #logotext {
-        font-size: 1.998rem;
-    }
+    #logotext { font-size: 1.998rem; }
 
-    .headerbutton {
-        font-size: 1.5rem;
-    }
+    .headerbutton { font-size: 1.5rem; }
 
-    .introduction-text h3 {
-        font-size: 1.4985rem;
-    }
+    .introduction-text h3 { font-size: 1.4985rem; }
     
-    .introduction-text p {
-        font-size: 1.14885rem;
-    }
+    .introduction-text p { font-size: 1.14885rem; }
 
-    .language-choice button{
-        font-size: 1.4985rem;
-    }
+    .language-choice button{ font-size: 1.4985rem; }
 
-    .language_explained_text h3 {
-        font-size: 1.4985rem;
-    }
+    .language_explained_text h3 { font-size: 1.4985rem; }
 
-    .language_explained_text p {
-        font-size: 1.1976rem;
-    }
+    .language_explained_text p { font-size: 1.1976rem; }
 
-    .title-contact h3 {
-        font-size: 2.74725rem;
-    }
+    .title-contact h3 { font-size: 2.74725rem; }
 
-    .contact-info h3 {
-        font-size: 1.497rem;
-    } 
+    .contact-info h3 { font-size: 1.497rem; } 
 
-    .contact-info p {
-        font-size: 0.998rem;
-    }
-
+    .contact-info p { font-size: 0.998rem; }
 
 }

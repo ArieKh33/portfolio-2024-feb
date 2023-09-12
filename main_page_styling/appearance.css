@@ -6,11 +6,9 @@ body, html {
 }
 button, a, h3 {
     font-family: 'share tech mono', sans-serif;
-    
+    text-decoration: none;
 }
-p {
-    font-family: "roboto mono";
-}
+p { font-family: "roboto mono"; }
 
 .side-bars {
     width: 10%;
@@ -30,9 +28,7 @@ p {
     right: 0;
 }
 
-.middle-bar {
-    background-color: #6534db;
-}
+.middle-bar { background-color: #6534db; }
 
 header {
     box-shadow: 1px 1px #6534db;
@@ -64,13 +60,9 @@ header {
     transition: 1s;
 }
 
-.introduction-text h3 {
-    font-size: 3.09vw;
-}
+.introduction-text h3 { font-size: 3.09vw; }
 
-.introduction-text p {
-    font-size: 2.3vw;
-}
+.introduction-text p { font-size: 2.3vw; }
 
 .language-choice button{
     font-size: 3vw;
@@ -108,17 +100,11 @@ header {
     border-color: #6534db;
 }
 
-.language_explained_text h3 {
-    font-size: 3vw;
-    }
+.language_explained_text h3 { font-size: 3vw; }
 
-.language_explained_text p {
-    font-size: 2.4vw;
-}
+.language_explained_text p { font-size: 2.4vw; }
 
-#language_explained {
-    box-shadow: 1px 1px #6534db;
-    }
+#language_explained { box-shadow: 1px 1px #6534db; }
 
 
 .background_language_text {
@@ -126,46 +112,37 @@ header {
     background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
 
-.language-logo {
-    background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
-}
+.language-logo { background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%); }
 
 
-.picture-side, .box-text {
-    background-color:#6534db;
-}
+.picture-side, .box-text { background-color:#6534db; }
 
-.box-template {
-    background-color: white;
+#projects-explained { border-bottom: 0.25rem solid rgb(101,52,219); }
+
+.project-box { border:  0.25rem solid rgb(101,52,219); }
+
+
+.project-box img {
+    width: 100%;
+    border-bottom: 0.25rem solid rgb(101,52,219);
 }
 
 .project-box h5 {
-    font-size: 1.2vw;
+    font-size: 0.6rem;
     text-decoration: none;
+    background-color: rgb(55, 5, 78);
     color: rgb(213, 227, 214);
     font-family: 'Josefin Sans', sans-serif
 }
-
-.project-box h5:last-child {
-    background: rgb(101,52,219);
-    background: linear-gradient(180deg, rgba(101,52,219,1) 0%, rgba(101,52,219,1) 49%, rgba(133,52,219,1) 100%);
-}
-
 
 footer {
     background: rgb(173,41,234);
     background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%, #6534db 100%);
 }
 
-.title-contact h3 {
-    font-size: 5.5vw;
-}
+.title-contact h3 { font-size: 5.5vw; }
 
-.contact-info p {
-    font-size: 2vw;
-}
+.contact-info p { font-size: 2vw; }
 
-.contact-info h3 {
-    font-size: 3vw;
-}
+.contact-info h3 { font-size: 3vw; }
 
