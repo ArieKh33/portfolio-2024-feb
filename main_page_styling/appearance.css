@@ -45,10 +45,6 @@ header {
     text-decoration: none;
 }
 
-.logo img {
-    border-radius: 50%;    
-}
-
 .headerbutton {
     font-weight: 600;
     font-size: 3vw;
@@ -171,3 +167,4 @@ footer {
 .contact-info h3 {
     font-size: 3vw;
 }
+
