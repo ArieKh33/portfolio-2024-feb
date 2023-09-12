@@ -125,12 +125,12 @@ header {
 
 
 .background_language_text {
-background: rgb(173,41,234);
-background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
+    background: rgb(173,41,234);
+    background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
 
 .language-logo {
-background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
+    background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
 
 
@@ -144,6 +144,14 @@ background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49
 
 .project-box h5 {
     font-size: 1.2vw;
+    text-decoration: none;
+    color: rgb(213, 227, 214);
+    font-family: 'Josefin Sans', sans-serif
+}
+
+.project-box h5:last-child {
+    background: rgb(101,52,219);
+    background: linear-gradient(180deg, rgba(101,52,219,1) 0%, rgba(101,52,219,1) 49%, rgba(133,52,219,1) 100%);
 }
 
 
