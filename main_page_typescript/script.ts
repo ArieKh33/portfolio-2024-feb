@@ -2,31 +2,31 @@ const data = [
     {
         id: "HTML5",
         title: "My experiences with: HTML5",
-        description: "No website exists without HTML and as my introductory language to programming I have to say that I enjoy working with it a lot since it's simple and very intuative.",
+        description: "No website exists without HTML and as my introduction into programming I have to say that I enjoy working with it a lot since it's simple and very intuitive.",
         logo: "/main_page_language_logos/html-logo.svg"
     },
     {
         id: "CSS3",
         title: "My experiences with: CSS3",
-        description: "Unlike HTML, CSS isn't mandatory but it definitely will make your website stand out more, and how I work with css is to make every website as simple and clear as I possibly can so that everyone from a programming genius to the elderly can understand what the website is about.",
+        description: "Unlike HTML, CSS isn't mandatory but it will definitely make your website stand out more, and what I aim to accomplish with css is to make every website as simple and readable as I possible.",
         logo: "/main_page_language_logos/css3-logo.svg"
     },
        {
         id: "PHP",
         title: "My experiences with: PHP",
-        description: "After all that web development some variety always welcome and PHP is first back-end language that I work with, it gave me a nice introduction into how fun it can be to work on databases. I am still a novice on this language compared to JavaScript but I have to admit that I always love the challenge.",
+        description: "After playing around with some HTML and CSS it was about time to start with an actual programming language and PHP would be my first. It gave me a nice introduction into how to make simple programs and a great introduction of how to work with databases.",
         logo: "/main_page_language_logos/php-logo.svg"
     },
        {
         id: "JavaScript",
         title: "My experiences with: JavaScript",
-        description: "only working with HTML and CSS to create websites is fun but quite limiting and there's where JavaScript comes in, I would have to say it's a language that I didn't like at first but learning more and more about it made me realize how important and interesting of a language that it is.",
+        description: "Only working with HTML and CSS to create websites is fun and all but it leaves a lot to be desired, so when I found out about the endless possibilities with JavaScript I was delighted and have to say that it is definitely one of the easier and more fun languages to use.",
         logo: "/main_page_language_logos/javascript-logo.svg"
     },
        {
         id: "Bootstrap",
         title: "My experiences with: Bootstrap",
-        description: "My preference at first was to hard code everything, but after starting to learn about the framework bootstrap I have changed my mind. I still have a preference to writing everything myself, but I've learnt that it can be very fun and useful to learn some frameworks on the side too.",
+        description: "My preference at first was to hard code everything, and to a point it is still very important to learn the fundamentals, but after looking around I found bootstrap and I have to say that it is an interesting experience. It took some time getting used to but it gave me some wonderful insight on how frameworks are.",
         logo: "/main_page_language_logos/bootstrap-logo.svg"
     },
 ]
