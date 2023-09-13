@@ -115,34 +115,30 @@ header {
 .language-logo { background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%); }
 
 
-.picture-side, .box-text { background-color:#6534db; }
+.box-text { background: linear-gradient(180deg, rgb(190, 49, 255) 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%); }
 
-#projects-explained { border-bottom: 0.25rem solid rgb(101,52,219); }
+#projects-explained { border-bottom: 0.1875rem solid rgb(101,52,219); }
 
-.project-box { border:  0.25rem solid rgb(101,52,219); }
+.project-box { border:  0.1875rem solid #6534db; }
 
 
 .project-box img {
     width: 100%;
-    border-bottom: 0.25rem solid rgb(101,52,219);
+    border-bottom: 0.25rem solid rgb(190, 49, 255);
 }
 
 .project-box h5 {
-    font-size: 0.6rem;
+    font-size: 1.3vw;
     text-decoration: none;
-    background-color: rgb(55, 5, 78);
     color: rgb(213, 227, 214);
-    font-family: 'Josefin Sans', sans-serif
 }
 
 footer {
-    background: rgb(173,41,234);
-    background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%, #6534db 100%);
+    border-top: 0.0625rem solid #6534db;
 }
 
-.title-contact h3 { font-size: 5.5vw; }
+.title-contact h3 { font-size: 4vw; }
+
+.contact-info h3 { font-size: 2.5vw; }
 
 .contact-info p { font-size: 2vw; }
-
-.contact-info h3 { font-size: 3vw; }
-

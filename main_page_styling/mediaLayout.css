@@ -11,8 +11,8 @@
     .arrangement.in-threes > ul > li { width: 100%; }
 
     .title-contact img {
-        width: 2.644375rem;
-        height: 2.644375rem;
+        width: 1.8125rem;
+        height: 1.8125rem;
         margin-right: 0.278125rem;
 }}
 
@@ -35,12 +35,21 @@
         margin-top: 2.31953125rem;
     }
         
-    .picture-side:nth-child(2) { width: 2vw; }
+    .arrangement.in-threes > ul > li {
+        width: 32%;
+        flex-wrap: nowrap;
+    }
 
-    .arrangement.in-fours > ul > li { width: 20%; }
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+    }
 
-    .title-contact img {
-        width: 4.435rem;
-        height: 4.435rem;
-        margin-right: 0.46640625rem;
-}}
+    .contact-info > div > p, .contact-info h3 { padding-bottom: 0%; }
+
+    .contact-info > div {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}

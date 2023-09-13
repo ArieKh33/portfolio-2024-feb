@@ -66,21 +66,14 @@ header {
 }
 
 footer {
-    background: rgb(173,41,234);
-    background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%, #6534db 100%);
+    border-top: 0.0625rem solid #6534db;
 }
 
-.title-contact h3 {
-    font-size: 5.5vw;
-}
+.title-contact h3 { font-size: 4vw; }
 
-.contact-info p {
-    font-size: 2vw;
-}
+.contact-info h3 { font-size: 2.5vw; }
 
-.contact-info h3 {
-    font-size: 3vw;
-}
+.contact-info p { font-size: 2vw; }
 
 
 /* base layout */
@@ -135,58 +128,42 @@ footer {
     align-items: center;
 }
 
-.title-contact img {
-    width: 19%;
+.contact-info img {
+    width: 10%;
     margin-left: 2%;
     margin-right: 2%;
 }
 
-.contact-info {
-    margin-right: 2%;
-
+.contact-info > div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 
 /* media appearances */
 @media screen and (max-width: 28rem) {
 
-    .headerbutton {
-        font-weight: 600;
-    }
+    .headerbutton { font-weight: 600; }
 
-    .title-contact h3 {
-        font-size: 1.54275rem;
-    }
+    .title-contact h3 { font-size: 1.122rem; }
 
-    .contact-info h3 {
-        font-size: 0.8415rem;
-    } 
+    .contact-info h3 { font-size: 0.70125rem; } 
 
-    .contact-info p {
-        font-size: 0.561rem;
-    }}
-
+    .contact-info p { font-size: 0.561rem; }
+}
 @media screen and (min-width: 50rem) {
 
-    #logotext {
-        font-size: 1.998rem;
-    }
+    #logotext { font-size: 1.998rem; }
 
-    .headerbutton {
-        font-size: 1.5rem;
-    }
+    .headerbutton { font-size: 1.5rem; }
 
-    .title-contact h3 {
-        font-size: 2.74725rem;
-    }
+    .title-contact h3 { font-size: 1.998rem; }
 
-    .contact-info h3 {
-        font-size: 1.497rem;
-    } 
+    .contact-info h3 { font-size: 1.24875rem; } 
 
-    .contact-info p {
-        font-size: 0.998rem;
-    }}
+    .contact-info p { font-size: 0.998rem; }
+}
 
 
 /* media layout */
@@ -198,8 +175,8 @@ footer {
     }
 
     .title-contact img {
-        width: 2.644375rem;
-        height: 2.644375rem;
+        width: 1.8125rem;
+        height: 1.8125rem;
         margin-right: 0.278125rem;
 }}
 
@@ -219,11 +196,10 @@ footer {
         margin-left: 0.5rem;
     }
 
-    .title-contact img {
-        width: 4.435rem;
-        height: 4.435rem;
-        margin-right: 0.46640625rem;
-}}
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+    }}
 
 
 /* reset */
