@@ -5,11 +5,15 @@
     }
     #project-introduction-img-preview {
         border: 0.0675rem solid #6534db;
-        border-right: 0.0675rem solid #6534db;
     }
 
     .introduction-text-h3 { font-size: 0.84rem; }
     .introduction-text-p { font-size: 0.49rem;}
+
+    .title-box h3 { font-size: 1.122rem; }
+    .explain-box-text h3 { font-size: 0.98175rem; }
+    .explain-box-text p { font-size: 0.561rem;}
+
 
 }
 
@@ -18,5 +22,10 @@
 @media screen and (min-width: 50rem) {
 
     .introduction-text-h3:first-child { font-size: 1.4985rem; }
+
+    .title-box h3 { font-size: 1.998rem; }
+    .explain-box-text h3 { font-size: 1.74825rem; }
+    .explain-box-text p { font-size: 0.999rem;}
+
 
 }

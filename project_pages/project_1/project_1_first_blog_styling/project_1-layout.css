@@ -1,3 +1,7 @@
+#project-introduction-text {
+    width: 450%;
+}
+
 .introduction-text {
     margin: 3% 0% 3% ;
     width: 100%;
@@ -8,5 +12,55 @@
 
 .extra-info-introduction {
     justify-content: space-between;
-    padding: 2% 1% 4%;
+    padding: 2% 1% 2%;
+    margin-top: -1.5%;
+}
+
+
+#project-explained-box-1 {
+    margin-top: 5%;
+}
+
+
+.explain-box {
+    flex-direction: column;
+    margin-bottom: 15%;
+}
+
+.title-box {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.explain-box-text > h3, .explain-box-text > p {
+    padding: 1% 1% 3%;
+}
+
+.explain-box-text {
+    width: 100%;
+    margin-top: -1%;
+}
+
+.explain-box-picture img {
+    width: 100%;
+}
+
+#github-link-box {
+    flex-direction: row;
+}
+
+.github-download-link {
+    padding-top: 20%;
+    align-items: center;
+}
+
+.github-download-link a {
+    width: 100%;
+    align-items: center;
+}
+
+.github-download-link > a > img {
+    width: 10%;
+    margin-left:1%;
 }

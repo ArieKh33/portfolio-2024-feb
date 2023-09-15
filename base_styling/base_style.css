@@ -83,6 +83,9 @@ footer {
 .align-center {
     align-items: center;
 }
+.justify-center {
+    justify-content: center;
+}
 .side-padding {
     padding: 0 10% 0;
 }
@@ -119,7 +122,7 @@ header {
 
 footer {
     padding: 1% 10% 1%;
-    margin-top: 60%;
+    margin-top: 10%;
     justify-content: space-between;
 }
 

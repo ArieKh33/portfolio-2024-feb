@@ -7,7 +7,24 @@
 
 #project-introduction-img-preview {
     border: 0.0675rem solid #6534db;
-    border-right: 2rem solid #6534db;
+    border-bottom: 0.5rem solid #6534db;
+
 }
 
-.extra-info-introduction { background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+.extra-info-introduction, .title-box{ background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+
+.explain-box-text > h3 { background: linear-gradient(180deg, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+
+.explain-box, .explain-box-text  {
+    border: #6534db solid 1px;
+    border-top: none;
+}
+
+.title-box h3 { font-size: 4vw; }
+.explain-box-text h3 { font-size: 3.5vw; }
+.explain-box-text p { font-size: 2vw;}
+
+#github-link-box a {
+    text-decoration: none;
+    color: aliceblue;
+}
