@@ -7,6 +7,7 @@ body, html {
     scroll-behavior: smooth;
 }
 button, a, h3 {
+    text-decoration: none;
     font-family: 'share tech mono', sans-serif;
 }
 p {
@@ -37,14 +38,12 @@ p {
 
 header {
     box-shadow: 1px 1px #6534db;
-    text-decoration: none;
 }
 
 #logotext {
     font-family: 'share tech mono', sans-serif;
     font-size: 4vw;
     color: #d5dadb;
-    text-decoration: none;
 }
 
 
@@ -53,7 +52,6 @@ header {
     font-size: 3vw;
     border-radius: 0.5rem;
     color: #d5dadb;
-    text-decoration: none;
     background-color: rgb(101, 52, 219);
     border-style: none;
     cursor: pointer;
@@ -66,8 +64,17 @@ header {
     transition: 1s;
 }
 
-.extra-info-introduction, .title-box{ background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+.extra-info-introduction, .title-box { background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
 .explain-box-text > h3 { background: linear-gradient(180deg, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+.introduction-text-h3 { font-size: 3vw; }
+.introduction-text-p { font-size: 1.75vw;}
+
+#page-choices > div > a {
+    color: rgb(213, 227, 214);
+    border: #d5dadb solid 2px;
+    background-color: #6534db;
+    text-align: center;
+}
 
 .explain-box, .explain-box-text  {
     border: #6534db solid 1px;
@@ -139,6 +146,11 @@ header {
 
 .projectbutton {
     margin-right: 0.5rem;
+}
+
+#page-choices  a {
+    padding: 1% 1% 1%;
+    width: 100%;
 }
 
 .explain-box {
