@@ -3,6 +3,7 @@ body, html {
     font-family: 'Josefin Sans', sans-serif;
     background-color: #20002e;
     color: aliceblue;
+    scroll-behavior: smooth;
 }
 button, a, h3 {
     font-family: 'share tech mono', sans-serif;
