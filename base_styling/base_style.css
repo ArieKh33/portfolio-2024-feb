@@ -77,6 +77,10 @@ header {
 .explain-box-text h3 { font-size: 3.5vw; }
 .explain-box-text p { font-size: 2vw;}
 
+.explain-box-picture {
+    border-left: #6534db solid 0.05rem;
+    border-right: #6534db solid 0.05rem;
+}
 
 #github-link-box a {
     text-decoration: none;

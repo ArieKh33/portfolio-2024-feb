@@ -43,7 +43,7 @@
                 
                 <div class="introduction-text">
                     <h3 class="introduction-text-h3">Hangman game</h3>
-                    <p class="introduction-text-p">After learning some basic HTML and CSS it was about time to start with a programming language and my first would be PHP. After learning some basic PHP I received an exercise to make a fun game with PHP and that would be the hangman game. It would also be a first where I would work together with a classmate of mine.</p>
+                    <p class="introduction-text-p">After learning some basic HTML and CSS it was about time to start with a programming language and my first would be PHP. After learning some basic PHP I received an exercise to make a fun game made with PHP and that would be the hangman game. It would also be a first in where I would work together with a classmate of mine.</p>
                 </div>
 
 
@@ -60,6 +60,7 @@
                             <h3 class="introduction-text-h3">Made with</h3>
                                 <p class="introduction-text-p">HTML5</p>
                                 <p class="introduction-text-p">CSS3</p>
+                                <p class="introduction-text-p">PHP8</p>
                         </div>
                     </div>
                     
@@ -71,23 +72,134 @@
             <div class="flex explain-box">
 
                 <div class="title-box">
-                    <h3>Main page</h3>
+                    <h3>Main page - galgje.php</h3>
                 </div>
 
                 <div class="explain-box-picture">
-                    <img src="../project_1_first_blog_pictures/project_1_explain_box_1.png" alt="">
+                    <img src="../project_2_hangman_game_pictures/main_page.png" alt="">
                 </div>
                 
                 <div class="explain-box-text">
-                    <h3>What it does</h3>
-                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h3>Starting out</h3>
+                    <p>To play the hangman game you need a word to start with, and you have 2 options to play with. The first being a random word from an array when you press the "willekeurig woord" button, and the second being an text input where you could write any word you'd like.</p>
                 </div>
                 <div class="explain-box-text">
-                    <h3>How it is made</h3>
-                    <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <h3>Important</h3>
+                    <p>The application is made in Dutch, however that does not mean that you are limited by only using Dutch words. The only limitations you do have are that you cannot use Capital letters and numbers.</p>
                 </div>
             </div>
         </div>
+
+        <div id="project-explained-box-2" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Game start - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/game_start.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>Playing the game</h3>
+                    <p>After you've picked a random word or a word chosen yourself you can start playing, the letter amount will be shown first and underneath will be the hangman itself. To play the game and guess the letters there is a line of buttons from the entire alphabet, and you can start whenever you'd like.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>How to play the hangman game</h3>
+                    <p>For the people who don't know how the hangman game works I will give a quick rundown. In the hangman game you receive a random word that you will have to guess, the only hint you'll receive at the start is the amount of characters the word consists of. And you start by guessing which letters are a part of that word, but be careful because every time you guess a letter not part of the word a portion of the drawing of the "hangman" will be drawn out, and when the drawing is finished you lose, however if you guess a letter correctly then it'll show the letter in the right position of the word and when you guess all the letters correctly you'll be victorious.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Incorrect input - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/letter_selected.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>What now?</h3>
+                    <p>So you have started playing and you start guessing that the letter "A" is part of the word, since the letter hasn't filled any blank spot and having the hangman drawn out more shows that that letter is Incorrect. </p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Can I continue?</h3>
+                    <p>Yes you can, since the drawing isn't finished yet, you could still try to guess with any other letter that isn't "A" and making the same mistake is thankfully not possible since you can't select a letter twice.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Correct input - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/correct_letter.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>The right letter</h3>
+                    <p>When you've guessed a letter that is part of the word it will show up in the position it belongs</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Multiple of the same letter</h3>
+                    <p>Let's say that you have a word with 2 "E" in there, and you're worried that you can't guess the letter twice for each letters since the button disables after use, but there is no need to worry since duplicate letters will be filled in automatically.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Winner - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/winning_screen.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>You've won</h3>
+                    <p>After filling out all the blanks You will receive a win screen with the word fully spelled out.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Where do I go now?</h3>
+                    <p>in this page is a button in the bottom left corner that will send you back to the home screen where you could play again.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="project-explained-box-" class="flex side-padding">
+            <div class="flex explain-box">
+
+                <div class="title-box">
+                    <h3>Loser - spel.php</h3>
+                </div>
+
+                <div class="explain-box-picture">
+                    <img src="../project_2_hangman_game_pictures/losing_screen.png" alt="">
+                </div>
+                
+                <div class="explain-box-text">
+                    <h3>You've lost</h3>
+                    <p>When the drawing of the hangman is finished you will lose and get to a losing screen where it will display the correct word you were trying to guess.</p>
+                </div>
+                <div class="explain-box-text">
+                    <h3>Can I keep playing?</h3>
+                    <p>No matter how many times you lose you'll always be able to play another game with a random word or a word chosen yourself, practise makes perfect.</p>
+                </div>
+            </div>
+        </div>
+
 
         
         <div id="github-link-box" class="flex justify-center side-padding">
