@@ -32,8 +32,6 @@ p {
     right: 0;
 }
 
-.middle-bar { background-color: #6534db; }
-
 header { box-shadow: 1px 1px #6534db; }
 
 #logotext {
@@ -60,15 +58,23 @@ header { box-shadow: 1px 1px #6534db; }
     transition: 1s;
 }
 
-.extra-info-introduction, .title-box { background: linear-gradient(180deg, #6534db 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
-.explain-box-text > h3 { background: linear-gradient(180deg, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%);}
+.extra-info-introduction, .title-box {background: rgb(173,41,234);}
+.explain-box-text > h3 { background: rgb(173,41,234);}
 .introduction-text-h3 { font-size: 3vw; }
 .introduction-text-p { font-size: 1.75vw;}
 
+#project-introduction-text { border-bottom: 0.5rem solid rgb(173,41,234);}
+
+#project-introduction-img-preview {
+    border: 0.0675rem solid rgb(173,41,234);
+    border-bottom: 0.5rem solid rgb(173,41,234);
+}
+
 #page-choices > div > a {
     color: rgb(213, 227, 214);
-    border: #d5dadb solid 2px;
-    background-color: #6534db;
+    border-right: #d5dadb solid 2px;
+    border-left: #d5dadb solid 2px;
+    background-color: rgb(173,41,234);
     text-align: center;
 }
 
@@ -82,8 +88,8 @@ header { box-shadow: 1px 1px #6534db; }
 .explain-box-text p { font-size: 2vw;}
 
 .explain-box-picture {
-    border-left: #6534db solid 0.05rem;
-    border-right: #6534db solid 0.05rem;
+    border-left: rgb(173,41,234) solid 0.05rem;
+    border-right: rgb(173,41,234) solid 0.05rem;
 }
 
 #github-link-box a {

@@ -29,7 +29,7 @@ p { font-family: "roboto mono"; }
     right: 0;
 }
 
-.middle-bar { background-color: #6534db; }
+.middle-bar { background: rgb(173,41,234); }
 
 header {
     box-shadow: 1px 1px #6534db;
@@ -71,7 +71,6 @@ header {
     font-weight: 700;
     color: #f0ffff;
     background: rgb(173,41,234);
-    background: linear-gradient(0deg, #ad29ea 0%, #6534db 100%);
     border-style: solid;
     border-width: 1px;
     border-color: #6534db;
@@ -110,17 +109,16 @@ header {
 
 .background_language_text {
     background: rgb(173,41,234);
-    background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%);
 }
 
-.language-logo { background: linear-gradient(180deg, rgba(173,41,234,1) 0%, rgba(173,41,234,1) 49%, rgba(101,52,219,1) 100%); }
+.language-logo { background: rgb(173,41,234); }
 
 
-.box-text { background: linear-gradient(180deg, rgb(190, 49, 255) 0%, rgba(173,41,234,1) 49%,  rgb(138, 52, 219) 70%,#6534db 100%); }
+.box-text { background: rgb(173,41,234); }
 
-#projects-explained { border-bottom: 0.1875rem solid rgb(101,52,219); }
+#projects-explained { border-bottom: 0.1875rem solid rgb(173,41,234); }
 
-.project-box { border:  0.1875rem solid #6534db; }
+.project-box { border:  0.1875rem solid rgb(173,41,234); }
 
 
 .project-box img {
