@@ -72,14 +72,13 @@ header { box-shadow: 1px 1px #6534db; }
 
 #page-choices > div > a {
     color: rgb(213, 227, 214);
-    border-right: #d5dadb solid 2px;
-    border-left: #d5dadb solid 2px;
+    border: #d5dadb solid 2px;
     background-color: rgb(173,41,234);
     text-align: center;
 }
 
 .explain-box, .explain-box-text  {
-    border: #6534db solid 1px;
+    border: rgb(173,41,234) solid 1px;
     border-top: none;
 }
 
